@@ -1,0 +1,34 @@
+#忽略系统文件
+
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+*.tmp
+
+# IDE/编辑器配置
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# 环境变量
+.env
+.env.local
+
+# 编译输出
+dist/
+build/
+*.exe
